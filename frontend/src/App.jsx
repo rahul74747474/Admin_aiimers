@@ -26,20 +26,6 @@ function App() {
   return (
     <div>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/signup" element={<Signup />} />
-
-        {/* Other Routes */}
-        <Route path="/listings" element={<Courses />} />
-        <Route path="/buy/:courseId" element={<Buy />} />
-        <Route path="/purchases" element={<Purchases/>}
-        />
-{/*         you can use below one if required 
- <Route
-          path="/purchases"
-          element={user ? <Purchases /> : <Navigate to={"/login"} />}
-        />*/}
 
         {/* Admin Routes */}
         <Route path="/admin/signup" element={<AdminSignup />} />
